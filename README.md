@@ -6,6 +6,8 @@
 
 Zebra::Zpl offers a Ruby DSL to design and print labels using the ZPL programming language.
 
+[![CircleCI](https://circleci.com/gh/galley/zebra-zpl.svg?style=svg)](https://circleci.com/gh/galley/zebra-zpl)
+
 ## Installation
 
 Add this line to your application's Gemfile:
