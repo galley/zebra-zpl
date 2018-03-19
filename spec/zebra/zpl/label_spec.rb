@@ -73,7 +73,7 @@ describe Zebra::Zpl::Label do
       label.print_speed    = 3
       label.print_density  = 10
       label.dump_contents(io)
-      expect(io).to eq "^XA^LL200^LH0,0^LS10^PW100^PR3^FWN^FO,^FS^FWN^FO,^FS^PQ1^XZ"
+      expect(io).to eq "^XA^LL200^LH0,0^PW100^PR3^FWN^FO,^FS^FWN^FO,^FS^PQ1^XZ"
     end
 
     it "does not try to set the label width when it's not informed (falls back to autosense)" do
